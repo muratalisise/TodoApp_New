@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(168, 160, 150, 0.555) !important;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.todoText{
+    max-width: 350px;
+    list-shadow: 5px 5px 5px 5px rgba(105, 100, 100, 0.575);
+}
+.btn{
+    width: 150px;
+    list-shadow: 5px 5px 5px 5px rgba(105, 100, 100, 0.575);
+}
+.todolist{    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 666px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.list{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+}
+.list .text{
+    margin-bottom: 0;
+}
+.list i{
+    color: red;
+    cursor: pointer;
+}
+.list .listEleman{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.list .listEleman .text{
+   width: 100%;
+}
+.fa-solid{
+    color: red;
+}
+
+
+
+
+
